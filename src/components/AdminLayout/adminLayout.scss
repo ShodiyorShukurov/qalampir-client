@@ -1,0 +1,12 @@
+.admin-layout {
+  display: flex;
+  &__start {
+    width: 250px;
+    height: 100vh;
+  }
+  &__end {
+    width: calc(100% - 250px);
+    background-color: #ccc;
+    height: 100vh;
+  }
+}
